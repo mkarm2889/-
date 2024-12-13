@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Alhamdulillah - Cosmetics Store</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #6c63ff;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #6c63ff;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('modern-hero.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 40px 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product h2 {
+            font-size: 1.4rem;
+            margin: 15px 0;
+        }
+        .product p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .product button {
+            background-color: #6c63ff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .product button:hover {
+            background-color: #5753d7;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Center Alhamdulillah</h1>
+        <p>Your Modern Destination for Beauty Excellence</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Shine Brighter with Us</h1>
+        <p>High-quality cosmetics designed to enhance your natural beauty</p>
+    </div>
+    <section class="products">
+        <div class="product">
+            <img src="lipstick.jpg" alt="Lipstick">
+            <h2>Matte Lipstick</h2>
+            <p>$22.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="foundation.jpg" alt="Foundation">
+            <h2>Hydrating Foundation</h2>
+            <p>$35.00</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="eyeshadow.jpg" alt="Eyeshadow">
+            <h2>Bold Eyeshadow Palette</h2>
+            <p>$28.00</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Center Alhamdulillah. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
